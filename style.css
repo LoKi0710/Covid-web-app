@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /* font-family: 'Teko', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+h1 {
+    text-align:center;
+}
+
+.box {
+    margin: 2rem;
+    /* padding: 1rem; */
+}
+
+.box1 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.box2 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.box3 {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,98,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.box4 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,85,1) 35%, rgba(0,212,255,1) 100%);
+}

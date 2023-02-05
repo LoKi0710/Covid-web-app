@@ -12,24 +12,27 @@ h1 {
     text-align:center;
 }
 
-.box {
-    margin: 2rem;
-    /* padding: 1rem; */
-}
-
 .box1 {
+    padding: 3px;
+    margin: 1rem;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .box2 {
+    padding: 3px;
+    margin: 1rem;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .box3 {
+    padding: 3px;
+    margin: 1rem;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,98,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .box4 {
+    padding: 3px;
+    margin: 1rem;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,85,1) 35%, rgba(0,212,255,1) 100%);
 }

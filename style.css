@@ -6,10 +6,14 @@ body {
     /* font-family: 'Teko', sans-serif; */
     font-family: 'Poppins', sans-serif;
     color:white;
+    overflow: visible;
 }
 
-h1 {
-    text-align:center;
+.headers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
 }
 
 .box1 {
@@ -17,6 +21,23 @@ h1 {
     margin: 1rem;
     padding-left: 3rem;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+
+.box1:hover{
+    background: linear-gradient(0deg, rgba(82,82,226,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.box2:hover{
+    background: linear-gradient(0deg, rgba(82,82,226,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.box3:hover{
+    background: linear-gradient(0deg, rgba(82,82,226,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.box4:hover{
+    background: linear-gradient(0deg, rgba(82,82,226,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .box2 {
@@ -38,4 +59,41 @@ h1 {
     margin: 1rem;
     padding-left: 3rem;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,85,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.new {
+    align-content: right;
+}
+
+/* footer */
+
+.footer {
+    background-color: rgb(82, 82, 226);
+    text-align: center;
+}
+
+.part1 {
+    float: left;
+    margin-left: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+i {
+    width: 60px;
+}
+
+i:hover {
+    color: brown;
+}
+
+.email:hover {
+    color: brown;
+}
+
+.email {
+    font-size: large;
 }
